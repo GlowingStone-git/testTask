@@ -1,0 +1,11 @@
+.card {
+    max-width: 300px;
+    max-height: 400px;
+    word-wrap: break-word;
+
+    
+}
+
+.list-group-textArea {
+    width: 250px;
+}

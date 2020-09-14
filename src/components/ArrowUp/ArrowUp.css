@@ -1,0 +1,30 @@
+.gg-arrow-up {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    transform: scale(var(--ggs,1));
+    width: 12px;
+    height: 12px
+}
+.gg-arrow-up::after,
+.gg-arrow-up::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 4px
+}
+.gg-arrow-up::after {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    left: 7px
+}
+.gg-arrow-up::before {
+    width: 2px;
+    height: 12px;
+    left: 10px;
+    background: currentColor
+}
